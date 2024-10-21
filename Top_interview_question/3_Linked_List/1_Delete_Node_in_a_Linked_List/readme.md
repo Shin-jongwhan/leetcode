@@ -32,6 +32,9 @@ class Solution(object):
 
 ### 그래서 그냥 해당 node를 다음 node로 값을 덮어씌어주면 그럼 자연스럽게 뒤쪽이 당겨와진다.
 #### ![image](https://github.com/user-attachments/assets/24c75ed6-eb54-417f-939e-fa4161513ac2)
+### <br/>
+
+### 전체 코드
 ```
 # Definition for singly-linked list.
 # class ListNode(object):
