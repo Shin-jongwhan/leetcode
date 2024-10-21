@@ -35,13 +35,13 @@ current.next = current.next.next
 ### 하여 다음과 같이 처리하는 게 안전하다.
 ```
 n = 0 
-	while current : 
-		n += 1 
-		if n == idx :
-			prev.next = prev.next.next
-			break
-		prev = current
-		current = current.next
+while current : 
+	n += 1 
+	if n == idx :
+		prev.next = prev.next.next
+		break
+	prev = current
+	current = current.next
 
-	return node
+return node
 ```
