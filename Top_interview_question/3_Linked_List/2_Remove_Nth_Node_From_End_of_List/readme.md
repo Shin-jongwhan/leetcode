@@ -22,7 +22,7 @@ return current.next
 ### <br/>
 
 ### 3. 1번의 특성으로 인해 값을 바꾸려면 아래와 같이 해야 하는데, 맨 마지막 값이 None이기 때문에 에러가 난다.
-#### ls = \[1,5,9\]의 listed node 출력값
+#### ls = \[1,5,9\]의 linked node 출력값
 ```
 1 -> 5 -> 9 -> None
 ```
@@ -44,4 +44,11 @@ while current :
 	current = current.next
 
 return node
+```
+### <br/>
+
+### 4. 아래 둘은 다른 것이다. if node가 검사 범위가 좀 더 넓다. falsy함을 검사한다.
+```
+if node == None :
+if node : 
 ```
