@@ -49,6 +49,6 @@ return node
 
 ### 4. 아래 둘은 다른 것이다. if node가 검사 범위가 좀 더 넓다. falsy함을 검사한다.
 ```
-if node == None :
+if node != None :
 if node : 
 ```
