@@ -38,4 +38,17 @@
 - 리스트로 변환하지 않기 때문에 sorting을 수행하지 않음
 ### <br/>
 
-### 
+### best score에서 참고한 것에서 도움이 많이 됐던 것은 if문을 잘 써야 한다는 것이다.
+### 처음에 이렇게 했는데 성능이 생각보다 안 나왔다.
+### 왜냐하면 둘 중에 하나가 None이고, 하나는 값이 있을 수도 있기 때문이다. 이런 경우 둘 중에 하나가 그냥 return 값이 되면 되는데 아래의 로직을 그대로 수행하였다
+```
+if not list1 and not list2:
+    return None
+```
+### <br/>
+
+### 다음과 같이 둘 다 None일 경우, 둘 중의 하나가 None일 경우를 모두 고려하니 best score가 됐다.
+```
+if not list1 or not list2:
+    return list1 if list1 else list2
+```
