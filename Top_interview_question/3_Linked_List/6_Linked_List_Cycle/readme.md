@@ -10,3 +10,7 @@
 #### ![image](https://github.com/user-attachments/assets/61b7fb9b-b9bd-475e-9970-1e5380b6ae80)
 ### <br/><br/>
 
+## 최적해 비교(answer_best_score.py)
+### 가장 점수가 좋은 코드를 실행해보니 생각보다 안 나오고 비슷하다. 
+### 원리는 1칸 씩 참조를 이동하는 slow와 2칸 씩 참조를 이동하는 fast를 활용해서 비교하는 것이다.
+#### ![image](https://github.com/user-attachments/assets/7d1b71ec-13e9-4614-8d53-6e7034e77e99)
