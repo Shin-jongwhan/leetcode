@@ -19,3 +19,6 @@
 ### [5_Convert_Sorted_Array_to_Binary_Search_Tree](https://github.com/Shin-jongwhan/leetcode/tree/main/Top_interview_question/4_Trees/5_Convert_Sorted_Array_to_Binary_Search_Tree)
 ### <br/><br/><br/>
 
+## Sorting and Searching
+### [2_First_Bad_Version](https://github.com/Shin-jongwhan/leetcode/tree/main/Top_interview_question/5_Sorting_and_Searching/2_First_Bad_Version)
+### <br/><br/><br/>
