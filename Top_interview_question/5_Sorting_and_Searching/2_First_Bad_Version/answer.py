@@ -11,7 +11,7 @@ class Solution(object):
         """
         low = 0
         high = n
-        mid = int((high - low) / 2) + 1
+        mid = (high + low) // 2
         if (n > 1 and isBadVersion(high) == True and isBadVersion(high - 1) == False) : 
             return high
         elif isBadVersion(1) == True : 
@@ -23,9 +23,9 @@ class Solution(object):
                 if isBadVersion(mid - 1) == False : 
                     return mid
                 high = mid
-                mid = int((high + low) / 2) + 1
+                mid = (high + low) // 2
             else : 
                 if isBadVersion(mid + 1) == True : 
                     return mid + 1
                 low = mid
-                mid = int((high + low) / 2) + 1
+                mid = (high + low) // 2
