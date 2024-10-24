@@ -10,5 +10,6 @@
 ### <br/>
 
 ### 러닝 타임
-#### ![image](https://github.com/user-attachments/assets/fae7a004-94c2-4ab3-a88f-e7567ff8e853)
+#### ![image](https://github.com/user-attachments/assets/7c31389c-c58e-46d4-8e6c-fb7cdb8aa1a5)
+
 
