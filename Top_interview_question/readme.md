@@ -22,3 +22,6 @@
 ## Sorting and Searching
 ### [2_First_Bad_Version](https://github.com/Shin-jongwhan/leetcode/tree/main/Top_interview_question/5_Sorting_and_Searching/2_First_Bad_Version)
 ### <br/><br/><br/>
+
+## 6_Dynamic_Programming
+### 전부... 내가 dynamic programming에 매우 취약하다는 걸 느꼈다. 푸는 방법을 전혀 감을 못 잡았다.
