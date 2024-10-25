@@ -26,3 +26,36 @@ class Solution(object):
 
         return opt[n-1]
 ```
+### <br/>
+
+### 예시를 봐보자
+```
+nums = [1,2,3,1]
+nums = [1,2,3,1,3]
+nums = [2,7,9,3,1]
+nums = [2,1,1,1,1,1,2]
+
+def test() : 
+	n = len(nums)
+	if n == 1:
+		return nums[0]
+	if n == 2:
+		return max(nums[0], nums[1])
+	opt = [0] * n
+	opt[0], opt[1] = nums[0], max(nums[0], nums[1])
+	for i in range(2, n):
+		opt[i] = max(nums[i] + opt[i-2], opt[i-1])
+
+	print(opt)
+	return opt[n-1]
+
+
+output = test() 
+print(output)
+```
+### 결과
+```
+[2, 2, 3, 3, 4, 4, 6]
+```
+### 바로 이전 집에서 턴 결과와 이번에 새롭게 턴 후 2개 떨어진 결과와 합친 것를 비교해서 max 값을 리스트에 넣는다.
+### 이렇게 하면 연속해서 터는 것을 방지할 수 있고 max 값을 찾을 수 있다.
