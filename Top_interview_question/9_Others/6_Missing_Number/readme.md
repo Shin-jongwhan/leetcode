@@ -8,3 +8,12 @@
 
 ### 러닝 타임
 #### ![image](https://github.com/user-attachments/assets/7769992a-2b10-4640-b0ce-84c3599a612e)
+### <br/>
+
+### best score answer는 수학적으로 간단하게 풀었다.
+```
+# len(nums) * (len(nums) + 1) // 2 : 0 ~ n 만큼의 합
+# sum(nums) : missing num을 제외한 합
+# 결과적으로 (0 ~ n 만큼의 합) - (missing num을 제외한 합) = missing num
+len(nums) * (len(nums) + 1) // 2 - sum(nums)
+```
