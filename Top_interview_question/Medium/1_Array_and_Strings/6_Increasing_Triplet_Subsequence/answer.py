@@ -6,7 +6,6 @@ class Solution:
             
             if second < third: return True
             
-            
             if third <= first: first= third    #first세팅
             else:  second = third  #second세팅
                 
