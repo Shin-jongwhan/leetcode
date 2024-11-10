@@ -16,3 +16,7 @@ ls[row][j] = ls[row-1][j-1] + ls[row-1][j]
 
 ### 러닝 타임
 #### ![image](https://github.com/user-attachments/assets/08b5a0a8-f358-4074-a80c-db7dfecca450)
+### <br/>
+
+### 파스칼 삼각형은 이항계수의 패턴과 일치한다고 한다는 내용을 보았다.
+#### ![image](https://github.com/user-attachments/assets/27fd4144-eec5-418e-be24-b9786f5adbd5)
