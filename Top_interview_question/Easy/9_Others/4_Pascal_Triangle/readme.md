@@ -19,4 +19,5 @@ ls[row][j] = ls[row-1][j-1] + ls[row-1][j]
 ### <br/>
 
 ### 파스칼 삼각형은 이항계수의 패턴과 일치한다고 한다는 내용을 보았다.
+#### https://www.youtube.com/watch?v=sVq2crKazJI
 #### ![image](https://github.com/user-attachments/assets/27fd4144-eec5-418e-be24-b9786f5adbd5)
